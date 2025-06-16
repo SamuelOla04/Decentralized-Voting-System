@@ -9,4 +9,11 @@ A smart contract-based voting system built with Solidity and Hardhat. This proje
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – For test scripts
 
 ## 📁 Project Structure
+contracts/
+│ DecentralizedVoting.sol # Main smart contract
+test/
+│ voting-test.js # Unit tests for the contract
+scripts/
+│ deploy.js # Script to deploy the contract
+hardhat.config.js # Hardhat config
 
